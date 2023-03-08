@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const deepl = require("deepl");
 const config = require("./src/config");
 
