@@ -36,7 +36,8 @@ These commands will be available.
 - `2en <message>`
 - `2jp <message>`
 
-Returns the first translation.
+DeepL may present multiple phrases in case of shaky translation results, and the results can be retrieved in array format.  
+This library outputs the first result returned to standard output.
 
 ```bash
 $ 2en "超つかれた"
